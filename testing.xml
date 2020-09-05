@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="futureloan" >
+    <test name="注册接口">
+        <classes>
+            <class name="com.lemon.cases.RegisterCase"/>
+            <parameter name="sheetIndex" value="0"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+            <parameter name="sheetValue" value="com.lemon.pojo.CaseInfo"></parameter>
+        </classes>
+    </test>
+    <test name="登录接口">
+        <classes>
+            <class name="com.lemon.cases.LoginCase"/>
+            <parameter name="sheetIndex" value="1"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+            <parameter name="sheetValue" value="com.lemon.pojo.CaseInfo"></parameter>
+        </classes>
+    </test>
+    <test name="充值接口">
+        <classes>
+            <class name="com.lemon.cases.RechargeCase"/>
+            <parameter name="sheetIndex" value="2"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+            <parameter name="sheetValue" value="com.lemon.pojo.CaseInfo"></parameter>
+        </classes>
+    </test>
+    <test name="新增项目">
+        <classes>
+            <class name="com.lemon.cases.AddCase"/>
+            <parameter name="sheetIndex" value="3"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+            <parameter name="sheetValue" value="com.lemon.pojo.CaseInfo"></parameter>
+        </classes>
+    </test>
+    <test name="管理员登录接口">
+        <classes>
+            <class name="com.lemon.cases.LoginCase"/>
+            <parameter name="sheetIndex" value="4"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+            <parameter name="sheetValue" value="com.lemon.pojo.CaseInfo"></parameter>
+        </classes>
+    </test>
+    <test name="审核接口">
+        <classes>
+            <class name="com.lemon.cases.AuditCase"/>
+            <parameter name="sheetIndex" value="5"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+            <parameter name="sheetValue" value="com.lemon.pojo.CaseInfo"></parameter>
+        </classes>
+    </test>
+    <test name="投资接口">
+        <classes>
+            <class name="com.lemon.cases.InvestCase"/>
+            <parameter name="sheetIndex" value="6"></parameter>
+            <parameter name="sheetNum" value="1"></parameter>
+            <parameter name="sheetValue" value="com.lemon.pojo.CaseInfo"></parameter>
+        </classes>
+    </test>
+</suite>
